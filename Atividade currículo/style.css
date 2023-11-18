@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+#titulo{
+    font-size: 3em;
+    color: #ffc300;
+    background-color: #003566;
+}
+
+.subtitulo{
+    font-size: 2em;
+}
+#header {
+    position: fixed;
+    width: 100vw;
+    height: 4em;
+    background-color: #003566;
+}
+
+#header a {
+    color: #ffc300;
+    padding: 0 1em;
+    font-size: 2em;
+}
+
+#header-menu {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-home {
+    font-size: 3em;
+    color: #ffc300;
+    position: fixed;
+    z-index: 100;
+    right: 20px;
+    bottom: 50px;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+
+#home{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+    background-image: url("./assets/imagens/back-home.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#home h2 {
+    color: white;
+}
+
+#informacoes {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+}
+
+#experiencias {
+    width: 100vw;
+    height: 50vh;
+    background-color: #003566;
+    color: #ffc300;
+    padding: 0 4em;
+}
+
+#experiencias h3 {
+    padding: 1em 20em;   
+}
+
+#exp1 {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#exp2 {
+    display: flex;
+    justify-content: space-between;    
+}
+
+#formacoes{
+    padding: 4em 12em;
+    width: 100vw;
+    height: 50vh;
+    font-size:  1.2em;
+    color: #003566;
+    display: flex;
+    justify-content: space-between;    
+    background-image: url(./assets/imagens/Imagem-formacao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#formacoes li {
+    padding-top: 0.1em;
+    padding-bottom: 0.5em;
+}
+
+#entrevista {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+}
+
+#entrevista h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#entrevista button {
+    padding: .5em .5em;
+    width: 13.8vw;
+    border-radius: 25px;
+    background-color: #003566;
+    color: #ffc300;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#entrevista button:hover {
+    background-color: #ffc300;
+    color: #003566;
+    transition: .5s;
+}
+
+#formulario {
+    width: 90vw;
+    padding: 2em 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#footer {
+    width: 99vw;
+    height: 3em;
+    background-color: #ffc300;
+    color: #003566;
+    padding: 0.5em 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer nav {
+    color: #003566;
+    font-size: 1.8em;
+    display: flex;
+}
+
+#footer a {
+    padding: 0 .3em;
+    padding-top: .2em;
+    color: #003566;
+}
+
+#footer h4 {
+    padding: .5em 0;
+}
